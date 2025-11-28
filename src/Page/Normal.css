@@ -1,0 +1,111 @@
+.normal{
+    color: black;
+    padding-top: 30px;
+    
+    text-align: start;
+    padding-left: 3%;
+
+    h2{
+        padding-right: 54%;
+    }
+}
+
+.price{
+      margin-bottom: 50px;
+    h1{
+        
+          font-family:Verdana, Geneva, Tahoma, sans-serif;
+         font-size: 43px; 
+        color:  rgb(31, 29, 29);
+    }
+
+    p{
+       
+         text-align: start;
+         color:#363535;
+        font-family:Verdana, Geneva, Tahoma, sans-serif; 
+        padding-top: 2%;
+        /* /* margin-bottom: 200px; */
+    
+    }
+}
+
+.table{
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.418);
+    width: 30%;
+    padding: 20px;
+    border-radius: 10px;
+   
+
+    .nn{
+        display: flex;
+        justify-content:space-between;
+
+        color: black;
+
+        h4{
+            
+            font-size: 20px;
+            
+        }
+
+        p{
+            color: black;
+            font-size: 15px;
+            padding-top: 5px;
+        }
+
+       
+    }
+
+     button{
+         margin-top: 15px;
+         margin-bottom: 15px;
+         border-radius: 3px;
+        padding: 5px;
+        font-size: 15px;
+        /* width: 140px; */
+        /* font-weight: bold; */
+        border: none;
+        background-color: black;
+        color: white;
+        align-items: end;
+        margin-left: 71%;
+        }
+}
+
+.table-flex{
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+   gap: 40px;
+    margin-bottom: 50px;
+}
+
+
+
+@media(max-width:600px){
+    .normal{
+        h2{
+            padding-right: 40%;
+            font-size: 20px;
+        }
+    }
+
+    .table{
+        width: 80%;
+    }
+
+    
+}
+
+@media(max-width:450px){
+    .normal{
+        h2{
+            padding-right: 30%;
+            font-size: 15px;
+        }
+    }
+
+   
+}

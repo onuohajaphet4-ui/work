@@ -1,0 +1,59 @@
+.foot{
+    background-color: black;
+    color: white;
+    height: 19vh;
+
+    p{
+        text-align: center;
+        font-weight: 100;
+        padding-top: 20px;
+        font-size: 20px;
+         font-style:oblique;
+    }
+
+    .foot-flex{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 30px;
+       
+       
+
+
+        p{
+            font-style: italic;
+             font-size: 13px;
+        }
+    }
+}
+
+.week {
+  display: flex;
+  gap: 10px;
+}
+
+.week button {
+  padding: 8px 15px;
+  border-radius: 20px;
+  background: #f2f2f2;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
+.week button.busy {
+  background: red;
+  color: white;
+  border-color: red;
+}
+
+@media(max-width:600px){
+    .foot{
+
+        p{
+            font-size: 15px;
+        }
+        .foot-flex{
+         gap: 20px;
+        }
+    }
+}

@@ -1,0 +1,150 @@
+.detail{
+    border-radius: 10px;
+    height:82vh;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 3%;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.404);
+    padding: 2%;
+    margin-bottom: 50px;
+
+    h2{
+        text-align: center;
+    }
+
+    h1{
+        font-size: 20px;
+        color: #333;
+        padding-top: 30px;
+    }
+
+   h4{
+    padding-right: 4%;
+    padding-top: 3%;
+    text-align: center;
+     font-size: 18px;
+        padding-bottom: 20px;
+         color: #333;
+
+   }
+
+   
+     h5{
+        font-size: 18px;
+        padding-top: 25px;
+        padding-bottom: 10px;
+
+     }
+
+     li{
+        text-decoration: none;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        text-decoration: none;
+        list-style: none;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 16px;
+        color: #3f3d3d;
+        font-weight:600;
+        padding-left: 30px;
+    
+       
+
+        
+     }
+
+     li:hover{
+        text-decoration: none;
+        color: black;
+     }
+
+     .l1{
+         background-color: rgb(237, 244, 247);
+        border-left: 5px solid black;
+        border-radius: 10px;
+        padding: 10px;
+         margin: 5px;
+        
+     }
+
+     .l2{
+        background-color: rgb(237, 244, 247);
+        border-left: 5px solid black;
+        border-radius: 10px;
+        padding: 10px;
+         margin: 5px;
+
+        
+     }
+
+     .l3{
+          background-color: rgb(237, 244, 247);
+        border-left: 5px solid black;
+        border-radius: 10px;
+        padding: 10px;
+         margin: 5px;
+
+        
+     }
+     .l4{
+          background-color: rgb(237, 244, 247);
+        border-left: 5px solid black;
+        border-radius: 10px;
+        padding: 10px;
+         margin: 5px;
+
+        
+     }
+
+}
+
+.v{
+    display: flex;
+    justify-content: space-around;
+}
+
+.dlex{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+@media(max-width:600px){
+    .v{
+        flex-direction: column;
+    }
+
+    .detail{
+        padding: 3%;
+        height: 115vh;
+         margin-left: 5%;
+         margin-right: 5%;
+         padding-top: 20px;
+
+        h4{
+            font-size: 15px;
+        }
+
+        h2{
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 10px;
+      }
+    }
+
+    
+
+    
+    
+}
+
+
+
+
+
+
+     
