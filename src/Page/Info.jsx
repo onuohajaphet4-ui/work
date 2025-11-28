@@ -8,6 +8,7 @@ import Contact from '../Component/Contact'
 import './Info.css'
 import {motion} from 'framer-motion'
 import { IoCall, IoLocation, IoTimeOutline } from "react-icons/io5";
+import {Link} from 'react-router-dom'
 
 const Info = () => {
   return (
@@ -103,7 +104,7 @@ const Info = () => {
 
         <p><span>Opening Hours</span>: 10:00 am - 10:00 pm</p>
 
-        <button>Book An Appointment</button>
+        <Link to='/book'> <button>Book An Appointment</button></Link>
        </div>
      </div>
 

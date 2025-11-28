@@ -17,7 +17,7 @@ const Nav = () => {
       <div className="nav">
         <ul className='main-ul'>
          <Link to='/' style={{textDecoration:'none' , color:'inherit'}}><li>Home</li></Link> 
-         <Link to='/gallary' style={{textDecoration:'none' , color:'inherit'}}><li>Gallary</li></Link> 
+         <Link to='/gallary' style={{textDecoration:'none' , color:'inherit'}}><li>Gallery</li></Link> 
          <Link to='/info' style={{textDecoration:'none' , color:'inherit'}}><li>Shop Info</li></Link> 
          <Link to='/book' style={{textDecoration:'none' , color:'inherit'}}><li>Booking Info</li></Link> 
         </ul>
@@ -44,7 +44,7 @@ const Nav = () => {
 
          <ul  onClick={() =>setOpen(false)}>
            <Link to='/' style={{textDecoration:'none' , color:'inherit'}}><li>Home</li></Link>
-          <Link to='/gallary' style={{textDecoration:'none' , color:'inherit'}}><li>Gallary</li></Link>
+          <Link to='/gallary' style={{textDecoration:'none' , color:'inherit'}}><li>Gallery</li></Link>
           <Link to='/info' style={{textDecoration:'none' , color:'inherit'}}><li>Shop Info</li></Link>
           <Link to='/book' style={{textDecoration:'none' , color:'inherit'}}><li>Booking Info</li></Link>
          </ul> 

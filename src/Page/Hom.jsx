@@ -7,6 +7,7 @@ import './Hom.css'
 import hair from '../assets/hair.jpg'
 import dye from '../assets/dye.jpg'
 import dread from '../assets/dread.jpg'
+import {Link} from 'react-router-dom'
 
 const Info = () => {
   return (
@@ -37,7 +38,7 @@ const Info = () => {
                 height: "90%",
                 objectFit: "cover",
                 zIndex: -1,
-                backgroundColor: "rgba(0,0,0,0.65)",
+                backgroundColor: "rgba(0,0,0,0.65)", 
         }}
       >
         <source src={video} type="video/mp4" />
@@ -50,7 +51,9 @@ const Info = () => {
 
     <Nav/>
 
+      <img src="https://d2gt4h1eeousrn.cloudfront.net/121245002/header-fcHJMd/DclbFT3-200x200.webp"  className='hero-mg' alt="" />
 
+      <Link to='/book'> <button  className='hero-btn'>Book An Appointment</button></Link>
     
     </Box>
       
@@ -74,7 +77,7 @@ const Info = () => {
                      <img src= {hair} alt="" />
                    </div>
 
-                   <button>Click to Book an Appointment</button> 
+                   <Link to='/book'><button>Click to Book an Appointment</button> </Link>
                 </div>
 
                  <div className="cardd">
@@ -85,7 +88,7 @@ const Info = () => {
                      <img src={dye} alt="" />
                    </div>
 
-                    <button>Click to Book an Appointment</button>
+                     <Link to='/book'><button>Click to Book an Appointment</button></Link>
                 </div>
 
 
@@ -97,7 +100,7 @@ const Info = () => {
                      <img src="https://media.istockphoto.com/id/583997412/photo/dermatologist-checking-mole-on-man-in-clinic.jpg?s=1024x1024&w=is&k=20&c=SDARcQrnTGxLv0TNBr0WY9KQrvt89Vjb2uQDN5DTr6k=" alt="" />
                    </div>
 
-                    <button>Click to Book an Appointment</button>
+                    <Link to='/book'><button>Click to Book an Appointment</button></Link>
                 </div>
 
                 <div className="cardd">
@@ -108,7 +111,7 @@ const Info = () => {
                      <img src={dread} alt="" />
                    </div>
 
-                    <button>Click to Book an Appointment</button>
+                    <Link to='/book'> <button>Click to Book an Appointment</button></Link>
                 </div>
 
                  

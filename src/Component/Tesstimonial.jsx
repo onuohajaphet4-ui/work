@@ -4,22 +4,17 @@ import './Testi.css'
 import {  IoPeople} from "react-icons/io5";
 const Testi = () => {
       const reviews = [
-    {
-      id: 1 ,
-      name: "Emeka O.",
-      review: "Fast delivery and the iPhone I bought was 100% original. Trusted store!",
-      rating: 5,
-    },
+    
     {
        id: 2 ,
-      name: "Aisha M.",
-      review: "Great customer service. My laptop came with warranty and works perfectly.",
+      name: "Eze J.",
+      review: "Clean cute, sharp lining, annd great service . Best barbershop experience i've had in a long time.",
       rating: 4,
     },
     {
        id: 3 ,
       name: "Umar S.",
-      review: "Affordable prices, smooth transaction. I’ll definitely buy again!",
+      review: "Professonal,friendly , and they really know what they are doing!",
       rating: 5,
     },
 
@@ -30,20 +25,15 @@ const Testi = () => {
     {
        id: 4 ,
       name: "Aip Q.",
-      review: "The speed of thier Customer service is what makes me happy the most.",
+      review: "The attention to detail is crazy.I always leave with a perfect cut.",
       rating: 4,
     },
     { id: 5 ,
       name: "John Vianney.",
-      review: " My laptop came safely and it  works perfectly, im so satified.",
+      review: " Fast,neat , and affordable.My new go-to barbershop.",
       rating: 4,
     },
-    {
-       id: 6 ,
-      name: "Ausss P.",
-      review: "Great customer service. ThIer deleveray service is top notch",
-      rating: 4,
-    },
+   
   ]
 
   return (
