@@ -1,16 +1,18 @@
 import React from 'react'
 import './Footer.css'
+import {Link} from 'react-router-dom'
+
 const Footer = () => {
   return (
     <div className='foot'>
       <p>© ALL RIGHTS RESERVED.   2025, YATI</p>
 
       <div className="foot-flex">
-        <p>Shop info</p>
-        <p>gallery</p>
-        <p>Booking info</p>
-        <p>Send a message</p>
-        <p>Book a session</p>
+        <Link to='/info' style={{textDecoration:'none' , color:'inherit'}}> <p>Shop info</p> </Link> 
+        <Link to='/gallary' style={{textDecoration:'none' , color:'inherit'}}> <p>gallery</p></Link> 
+        <Link to='/book' style={{textDecoration:'none' , color:'inherit'}}><p>Booking info</p></Link> 
+        <Link to='/con' style={{textDecoration:'none' , color:'inherit'}}><p>Send a message</p></Link> 
+        <Link to='/form' style={{textDecoration:'none' , color:'inherit'}}><p>Book a session</p></Link> 
       </div>
     </div>
   )

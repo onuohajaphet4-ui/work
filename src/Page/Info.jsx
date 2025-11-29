@@ -44,7 +44,7 @@ const Info = () => {
 
           <div className="bl-flex">
            <IoCall size={25}/>
-           08145990289
+          <a href="tel:=08145990289"> 08145990289</a>
           </div>
 
           <p>

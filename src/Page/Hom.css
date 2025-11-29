@@ -8,21 +8,7 @@
     }
 }
 
-.hero-btn{
-    background-color: black;
-    padding: 15px;
-    color: white;
-    font-weight: bold;
-    border: none;
-    border-radius: 5px;
-    margin-left: 43%;
-    margin-top: 12%;
-}
 
-.hero-btn:hover{
-    background-color: white;
-    color:black;
-}
 
 .hero-mg{
     display: none;
@@ -54,6 +40,12 @@
         border: none;
         background-color: black;
         color: white;
+    }
+
+    button:hover{
+          background-color: white;
+        color:black;
+        box-shadow:  0 4px 12px rgba(0, 0, 0, 0.493);
     }
     
 }

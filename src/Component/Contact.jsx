@@ -1,29 +1,74 @@
-import React from 'react'
+import React , { useRef , useState } from 'react'
 import './Contact.css'
+import emailjs from '@emailjs/browser'
+import {CircularProgress} from '@mui/material'
+
 const Contact = () => {
+   const [loading, setLoading] = useState(false);
+  const form = useRef () 
+
+  const sendEmail = (e) => {
+    e.preventDefault() ;
+     setLoading(true)
+    emailjs 
+    .sendForm(
+      'service_f4ymrpo',
+      'template_ckwm5wk',
+      form.current,
+       'yQcrPxg3PWJmvSr8a'
+    )
+    .then(
+      (result) => {
+        console.log (result.text)
+        alert('Your Meassage has been sent and will be review, expect our reply soon')
+        setLoading(false);
+      },
+      (error) => {
+        console.log(error.text)
+        alert('Error sending message')
+      }
+     
+      
+   
+    )
+  }
+
+
   return (
     <div className='contact'>
-       <div className="form">
+       <div className="form" >
+
         <h1>Contact US</h1>
 
-        <input type="text" name="" id=""  placeholder='Name'/> <br />
+        <form action="" ref={form} onSubmit={sendEmail}>
 
-        <input type="text"  placeholder='Email or Phonenumber'/> <br />
+        <input type="text" name="name" id=""  required placeholder='Name'/> <br />
 
-        <input type="text" placeholder='Message' /> <br />
+        <input type="text"  name='phone'  required  placeholder='Email or Phonenumber'/> <br />
+
+        <input type="text" name="message" required  placeholder='Message' /> <br />
 
         <p>I’m available for commissions and collaborations, and i’m
            excited to hear from you about new projects.
         </p>
 
-        <button>Submit</button>
+        <button>{loading ? (
+           <CircularProgress size={24} sx={{ color: "#fff" }} />
+          ) : (
+            "Submitt"
+          )}
+        </button>
+
+        </form>
        </div>
+
+       
 
        <div className="infoo">
          <h2>Visit our studio at</h2>
          <p>282 base , site & service , new oweri <br />owerri imo state </p>
          <h2>Message us</h2>
-         <p>Onuohajaphet@gnail.com <br /> 0028922892828</p>
+         <p>Onuohajaphet@gnail.com <br /><a href="tel:=08145990289"> 08145990289</a></p>
          
 
          <h2>Working Hours</h2>

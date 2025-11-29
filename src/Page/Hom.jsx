@@ -53,7 +53,7 @@ const Info = () => {
 
       <img src="https://d2gt4h1eeousrn.cloudfront.net/121245002/header-fcHJMd/DclbFT3-200x200.webp"  className='hero-mg' alt="" />
 
-      <Link to='/book'> <button  className='hero-btn'>Book An Appointment</button></Link>
+      
     
     </Box>
       
@@ -62,7 +62,7 @@ const Info = () => {
         YATI BARBERSHOP
       </h1>
 
-      <button>Book Now</button>
+    <Link to='/book'>  <button>Book Now</button></Link>
     </div>
 
     <div className="home-contan">

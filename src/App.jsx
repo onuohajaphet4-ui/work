@@ -10,6 +10,8 @@ import Info from './Page/Info'
 import Book from './Page/Book'
 import Detail from './Page/Details'
 import Pay from './Component/Pay'
+import Form from './Component/Form'
+import Contact from './Component/Contact'
 function App() {
   const [count, setCount] = useState(0)
 
@@ -20,6 +22,8 @@ function App() {
 
     <Routes>
       <Route path='/' element={<Home/>} />
+      <Route path='/form' element={<Form/>} />
+      <Route path='/con' element={<Contact/>} />
       <Route path='/pay' element={<Pay/>} />
       
       <Route path='/home' element={<Hom/>} />

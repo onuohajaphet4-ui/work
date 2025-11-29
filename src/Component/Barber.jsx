@@ -21,10 +21,10 @@ const Barber = () => {
                  <p>Head Barber</p>
 
                  <div className="loo">
-                 <IoLogoWhatsapp color='white'/>
-                 <IoCall color='white'/>
-                 <IoLogoFacebook color='white'/>
-                 <IoLogoTwitter color='white'/>
+                 <a href="https://wa.me/2347074293026" ><IoLogoWhatsapp color='white'/></a>
+                 <a href="tel:=08145990289"><IoCall color='white'/></a>
+                 <a href=""><IoLogoFacebook color='white'/></a>
+                 <a href="https://x.com/arinzehaf?"><IoLogoTwitter color='white'/></a>
                  </div>
                  
                </div>
@@ -38,10 +38,10 @@ const Barber = () => {
                  <p>Assistant Head Barber</p>
 
                  <div className="loo">
-                 <IoLogoWhatsapp color='white'/>
-                 <IoCall color='white'/>
-                 <IoLogoFacebook color='white'/>
-                 <IoLogoTwitter color='white'/>
+                 <a href="https://wa.me/2347074293026" ><IoLogoWhatsapp color='white'/></a>
+                 <a href="tel:=08145990289"><IoCall color='white'/></a>
+                 <a href=""><IoLogoFacebook color='white'/></a>
+                 <a href="https://x.com/arinzehaf?"><IoLogoTwitter color='white'/></a>
                  </div>
                  
                </div>
@@ -55,10 +55,10 @@ const Barber = () => {
                  <p>Intern Student</p>
 
                  <div className="loo">
-                 <IoLogoWhatsapp color='white'/>
-                 <IoCall color='white'/>
-                 <IoLogoFacebook color='white'/>
-                 <IoLogoTwitter color='white'/>
+                 <a href="https://wa.me/2347074293026" ><IoLogoWhatsapp color='white'/></a>
+                 <a href="tel:=08145990289"><IoCall color='white'/></a>
+                 <a href=""><IoLogoFacebook color='white'/></a>
+                 <a href="https://x.com/arinzehaf?"><IoLogoTwitter color='white'/></a>
                  </div>
                  
                </div>
