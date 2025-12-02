@@ -84,6 +84,20 @@
 
 
 @media(max-width:600px){
+
+    .admm{
+        padding: 10px;
+        /* font-size: 15px; */
+        width: 110px;
+        font-weight: bold;
+        border: none;
+        background-color: black;
+        color: white;
+        align-items: end;
+        border-radius: 5px;
+        margin-top: 20px;
+        
+    }
       
           .nav{
             display: none;

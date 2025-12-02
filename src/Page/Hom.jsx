@@ -1,6 +1,6 @@
 import React from 'react'
 import {Box} from '@mui/material'
-import video from '../assets/vid1.mp4'
+import video from '../assets/vii.mp4'
 import Nav from '../Component/Nav'
 import Foot from '../Component/Footer'
 import './Hom.css'
@@ -44,8 +44,10 @@ const Info = () => {
         <source src={video} type="video/mp4" />
     </video>
 
-    <div className='overlay'></div>
+      
   </div>
+
+     <Link to='/log'><button  className='admmm'>Admin block</button></Link>
 
    <img src="https://d2gt4h1eeousrn.cloudfront.net/121245002/header-fcHJMd/DclbFT3-200x200.webp"  className='hero-img' alt="" />
 

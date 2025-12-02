@@ -68,7 +68,7 @@ const Contact = () => {
          <h2>Visit our studio at</h2>
          <p>282 base , site & service , new oweri <br />owerri imo state </p>
          <h2>Message us</h2>
-         <p>Onuohajaphet@gnail.com <br /><a href="tel:=08145990289"> 08145990289</a></p>
+         <p>Onuohajaphet@gnail.com <br /><a href="tel:=08145990289"> 08140685213</a></p>
          
 
          <h2>Working Hours</h2>

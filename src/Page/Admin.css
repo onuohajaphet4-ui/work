@@ -1,0 +1,85 @@
+.admin-flex{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    padding-top: 20px;
+
+}
+
+.admin-card{
+    width: 40%;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.479);
+    padding: 30px;
+    border-radius: 10px;
+    margin-bottom: 50px;
+
+    h4{
+        color:  rgb(31, 29, 29);
+        padding-bottom: 7px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    button{
+        padding: 15px;
+        font-size: 15px;
+        width: 110px;
+        font-weight: bold;
+        border: none;
+        background-color: black;
+        color: white;
+        align-items: end;
+        border-radius: 5px;
+        margin-left: 80%;
+    }
+
+    :hover{
+          background-color: white;
+        color:black;
+        box-shadow:  0 4px 12px rgba(0, 0, 0, 0.493);
+    }
+}
+
+.eric{
+    padding-top: 20px;
+    padding-left: 3%;
+}
+
+.eric-b{
+      margin-top: 10px;
+        padding: 15px;
+        font-size: 15px;
+        width: 140px;
+        font-weight: bold;
+        border: none;
+        background-color: black;
+        color: white;
+        margin-left: 3%;
+    }
+
+    .eric-b:hover{
+          background-color: white;
+        color:black;
+        box-shadow:  0 4px 12px rgba(0, 0, 0, 0.493);
+    }
+
+    .ffp{
+        padding-left: 3%;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: bold;
+    }
+
+@media(max-width:600px){
+    .admin-flex{
+        flex-direction: column;
+        padding: 5%;
+    }
+
+    .admin-card{
+        width: 88%;
+        padding: 30px;
+
+    }
+}

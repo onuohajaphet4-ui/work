@@ -3,17 +3,24 @@ import Nav from '../Component/Nav'
 import Foot from '../Component/Footer'
 import './Product.css'
 import {motion} from 'framer-motion'
+import img from '../assets/img1.jpg'
+import img1 from '../assets/img2.jpg'
+import img2 from '../assets/img3.jpg'
+import img3 from '../assets/img4.jpg'
+import img4 from '../assets/img5.jpg'
+import img5 from '../assets/img6.jpg'
+
 const Info = () => {
 
   const gallery = [
     {
-      img: 'https://i.pinimg.com/736x/14/65/ed/1465edfb124a2407eed5f82da33c7279.jpg'
+      img: img1
     }, {
-      img: 'https://i.pinimg.com/1200x/af/29/dd/af29ddec6573c1a6aadbc46df483ec9e.jpg'
+      img: img5
     }, {
       img: 'https://i.pinimg.com/736x/94/8b/11/948b11e05545c9d37cfd9068465b3fe6.jpg'
     }, {
-      img: 'https://i.pinimg.com/1200x/36/19/84/361984e46c9875221f75b00144552096.jpg'
+      img: img2
     }, {
       img: 'https://i.pinimg.com/736x/8b/7d/6d/8b7d6daa81993fa08921df22c4aec411.jpg'
     }, {

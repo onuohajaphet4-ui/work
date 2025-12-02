@@ -10,52 +10,61 @@ const Form = () => {
      const [loading, setLoading] = useState(false);
       const form = useRef () 
 
-      const convertTo12 = (time24) => {
-        let [hour, minute] = 
-        time24.split (":")
-        hour = parseInt (hour)
-
-        const ampm = hour >= 12 ? "PM" : "AM"
-        hour = hour % 12 || 12
-
-        return `${hour}:${minute} ${ampm}`
-      }
+      
 
     
-      const sendEmail = (e) => {
+      const sendEmail = async (e) => {
         e.preventDefault() ;
          setLoading(true)
 
-         const formData = new 
-         FormData(form.current)
-         const time24 = formData.get("time")
+         console.log (form.current)
+         
+        const  userData ={
+           name : form.current.name.value,
+           phone: form.current.phone.value,
+           service: form.current.service.value ,
+           payment: form.current.payment.value ,
+           barber: form.current.barber.value,
+           address: form.current.address.value,
+           time: form.current.time.value,
+           date: form.current.date.value
+        }
 
-         if (time24){
-          const time12 =
-          convertTo12(time24)
-         }
-
-        emailjs 
+        try {
+          await
+          emailjs 
         .sendForm(
           'service_f4ymrpo',
           'template_79gqmnv',
           form.current,
            'yQcrPxg3PWJmvSr8a'
         )
-        .then(
-          (result) => {
-            console.log (result.text)
-            alert('Your Meassage has been sent and will be review, expect our reply soon')
-            setLoading(false);
+
+       //Send Data to dashbord
+        await
+        fetch ("https://yati-backend.onrender.com/api/users/create", {
+          method:'POST',
+          headers:{
+            "Content-Type" : "application/json",
+            
           },
-          (error) => {
-            console.log(error.text)
-            alert('Error sending message')
-          }
-         
+
+          body:JSON.stringify(userData)
+        })
+
+         alert('Your Meassage has been sent and will be review, expect our reply soon')
+           
+            form.current.reset()
           
-       
-        )
+        } catch (error) {
+           console.log(error.text)
+            alert('Error sending message')
+        }finally{
+           setLoading(false);
+        }
+
+      
+          
       }
         
   return (

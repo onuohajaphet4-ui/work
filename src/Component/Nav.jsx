@@ -47,6 +47,9 @@ const Nav = () => {
           <Link to='/gallary' style={{textDecoration:'none' , color:'inherit'}}><li>Gallery</li></Link>
           <Link to='/info' style={{textDecoration:'none' , color:'inherit'}}><li>Shop Info</li></Link>
           <Link to='/book' style={{textDecoration:'none' , color:'inherit'}}><li>Booking Info</li></Link>
+
+
+           <Link to='/log'><button  className='admm'>Admin block</button></Link>
          </ul> 
         </div>
       </motion.div>

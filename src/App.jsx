@@ -12,6 +12,8 @@ import Detail from './Page/Details'
 import Pay from './Component/Pay'
 import Form from './Component/Form'
 import Contact from './Component/Contact'
+import Login from './Page/Login'
+import Admin from './Page/Adim'
 function App() {
   const [count, setCount] = useState(0)
 
@@ -22,6 +24,8 @@ function App() {
 
     <Routes>
       <Route path='/' element={<Home/>} />
+      <Route path='dmin' element={<Admin/>} />
+      <Route path='/log' element={<Login/>} />
       <Route path='/form' element={<Form/>} />
       <Route path='/con' element={<Contact/>} />
       <Route path='/pay' element={<Pay/>} />

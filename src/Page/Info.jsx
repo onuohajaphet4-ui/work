@@ -9,6 +9,8 @@ import './Info.css'
 import {motion} from 'framer-motion'
 import { IoCall, IoLocation, IoTimeOutline } from "react-icons/io5";
 import {Link} from 'react-router-dom'
+import img3 from '../assets/img3.jpg'
+
 
 const Info = () => {
   return (
@@ -44,7 +46,7 @@ const Info = () => {
 
           <div className="bl-flex">
            <IoCall size={25}/>
-          <a href="tel:=08145990289"> 08145990289</a>
+          <a href="tel:=08145990289"> 08140685213</a>
           </div>
 
           <p>
@@ -92,7 +94,7 @@ const Info = () => {
      <div className="about">
      
            
-      <img src="https://preview.colorlib.com/theme/br/img/about/about_lft.png" alt="" />
+      <img src={img3} alt="" />
        
        <div className="infoma">
         <h1>Our Story</h1>

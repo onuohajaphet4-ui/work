@@ -49,6 +49,21 @@
     }
     
 }
+
+
+.admmm{
+    margin-left: 90%;
+    padding: 15px;
+        /* font-size: 15px; */
+        width: 110px;
+        font-weight: bold;
+        border: none;
+        background-color: black;
+        color: white;
+        align-items: end;
+        border-radius: 5px;
+        margin-top: 10px;
+}
 .home-contan{
     align-items: center;
     h1{
@@ -157,6 +172,10 @@
      width: 90%;
      padding-top: 10px;
     }
+    
+    .admmm{
+        display: none;
+    }
 }
 
 @media(max-width:450px){
@@ -173,4 +192,6 @@
          /* margin-top: 55%; */
         margin-left: 25%;
     }
+
+    
 }
