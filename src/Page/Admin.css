@@ -78,8 +78,18 @@
     }
 
     .admin-card{
-        width: 88%;
+        width: 80%;
         padding: 30px;
 
+
+        button{
+            margin-left: 65%;
+        }
+
+    }
+
+    .eric{
+        font-size: 30px;
+        padding-top: 30px;
     }
 }

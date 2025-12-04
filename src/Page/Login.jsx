@@ -30,16 +30,20 @@ const Login = () => {
     setError('')
     try{
         const res = await
-    axios.post('https://classwork-backend-yhli.onrender.com/api/users/login ', {email,password})
+    axios.post('https://classwork-backend-yhli.onrender.com/api/users/login' , {email,password})
         console.log(res)
         navigate('/dmin')
-    }catch(err){
-        console.error(err)
-        setError(err?.response?.data?.error)
+       
+        
+    }catch(error){
+        console.error(error)
+        setError(error?.res?.data?.error)
     }finally{
         setLoading(false)
        }
  }
+
+  // { (!email) ? 'wrong email' : "Login"}
 
   return (
     <Box
@@ -69,7 +73,7 @@ const Login = () => {
                       top: 0,
                       left: 0,
                       width: "100%",
-                      height: "100%",
+                      height: "110%",
                       objectFit: "cover",
                       zIndex: -1,
                       backgroundColor: "rgba(0,0,0,0.65)", 
@@ -85,6 +89,7 @@ const Login = () => {
           inset: 0,
           backgroundColor: "rgba(0,0,0,0.65)",
           zIndex: 0,
+          height: "110%",
         }}
       />
 
@@ -138,7 +143,11 @@ const Login = () => {
             fontWeight="bold"
             sx={{ mb: 3, color: "white" }}
           >
-         {error ? error : 'Welcome Back'}
+         {error ? error : 'Welcome Back'
+           
+         }
+
+        
           </Typography>
 
           {/* Email Input */}
