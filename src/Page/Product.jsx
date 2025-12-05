@@ -9,6 +9,8 @@ import img2 from '../assets/img3.jpg'
 import img3 from '../assets/img4.jpg'
 import img4 from '../assets/img5.jpg'
 import img5 from '../assets/img6.jpg'
+import log from '../assets/loo.jpg'
+
 
 const Info = () => {
 
@@ -56,12 +58,12 @@ const Info = () => {
   return (
     <div className='gallery'>
         <div className="ba">
-       <img src="https://d2gt4h1eeousrn.cloudfront.net/121245002/header-fcHJMd/DclbFT3-200x200.webp"  className='hero-img' alt="" />
+       <img src={log}  className='hero-img' alt="" />
          <Nav/> 
       </div>
 
       <h1>
-        Yati Models
+        ERIC Models
       </h1>
      
        <motion.div

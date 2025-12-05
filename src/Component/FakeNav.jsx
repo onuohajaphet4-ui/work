@@ -18,11 +18,11 @@ const FakeNav = () => {
                       transition={{ duration: 0.8, ease: "easeOut" }}
         > 
 
-        <h1 className='h1'>Welcome to YATI — where style meets comfort. </h1>
+        <h1 className='h1'>Welcome to ERIC — where style meets comfort. </h1>
 
         <p className='p'>
            Choose how you’d like to enjoy our services: <br /> visit us in-store for the classic
-           barbershop experience or let us bring YATI’s touch right to your home.
+           barbershop experience or let us bring ERIC’s touch right to your home.
         </p>
      <div className='fake'>
        <h3 className={`tab ${activeTab === "service" ? "active" : ""}`} onClick={() => setActiveTab('service')}> Normal Service</h3>

@@ -5,7 +5,7 @@ import {Link} from 'react-router-dom'
 const Footer = () => {
   return (
     <div className='foot'>
-      <p>© ALL RIGHTS RESERVED.   2025, YATI</p>
+      <p>© ALL RIGHTS RESERVED.   2025, ERIC</p>
 
       <div className="foot-flex">
         <Link to='/info' style={{textDecoration:'none' , color:'inherit'}}> <p>Shop info</p> </Link> 

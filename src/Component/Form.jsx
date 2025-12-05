@@ -79,7 +79,7 @@ const Form = () => {
                
                 }}
                  >
-                    Booking Info
+                    Booking Form
                 </button>
         </div>
 

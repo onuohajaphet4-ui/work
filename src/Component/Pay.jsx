@@ -20,10 +20,10 @@ const PaymentModal = () => {
   
   }
   const payment = () => {
-    const accountNumber = '8145990289'
+    const accountNumber = '8140685213'
   }
   const copyClip = () => {
-     const accountNumber = '8145990289'
+     const accountNumber = '8140685213'
 
     navigator.clipboard.writeText(accountNumber)
     .then (() => {
@@ -42,8 +42,8 @@ const PaymentModal = () => {
           You’ll be redirected to OPay to complete your payment securely.
         </p>
 
-       <h2  style={{paddingTop:'10px'}}>Account No: <button onClick={copyClip} style={{padding:'4px', fontSize:'15'}}> 8145990289</button> </h2> 
-        <h4>Name:Onuoha Japhet </h4>
+       <h2  style={{paddingTop:'10px'}}>Account No: <button onClick={copyClip} style={{padding:'4px', fontSize:'15'}}> 8140685213</button> </h2> 
+        <h4>Name:Eric Onyijunwa </h4>
         <div className="modal-actions">
           <button className="cancel-btn" onClick={() => navigate(-1)} >
             Cancel

@@ -100,19 +100,19 @@ const Home = () => {
 
       {/* <Busy/> */}
      
-      <h2>Enjoy YATI’s premium grooming in the comfort 
+      <h2>Enjoy ERIC’s premium grooming in the comfort 
         of your home — same skill, same quality, delivered right to your doorstep.
      </h2>
 
       <hr  style={{  marginTop:'20px' , padding:'1px' ,background:'black' ,  marginRight:'54%' }}/>
      <div className="price">
         <h1>
-            Our Service
+            Our Services
         </h1>
 
         <p>
             Quality grooming, clear prices.
-             Pick your service style — shop or home — and enjoy the same YATI standard.
+             Pick your service style — shop or home — and enjoy the same ERIC standard.
         </p>
      </div>
 

@@ -102,7 +102,7 @@ const Normal = () => {
      
 
      <h2>
-        Experience YATI’s classic in-shop service 
+        Experience ERIC’s classic in-shop service 
         — where precision, comfort, and style come together to give you the perfect look.
      </h2>
 
@@ -115,7 +115,7 @@ const Normal = () => {
 
          <p>
             Quality grooming, clear prices.
-             Pick your service style — shop or home — and enjoy the same YATI standard.
+             Pick your service style — shop or home — and enjoy the same ERIC standard.
         </p>
      </div>
     

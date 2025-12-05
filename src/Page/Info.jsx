@@ -10,13 +10,14 @@ import {motion} from 'framer-motion'
 import { IoCall, IoLocation, IoTimeOutline } from "react-icons/io5";
 import {Link} from 'react-router-dom'
 import img3 from '../assets/img3.jpg'
+import log from '../assets/loo.jpg'
 
 
 const Info = () => {
   return (
     <div className='info'>
      <div className="ba">
-       <img src="https://d2gt4h1eeousrn.cloudfront.net/121245002/header-fcHJMd/DclbFT3-200x200.webp"  className='hero-img' alt="" />
+       <img src={log}  className='hero-img' alt="" />
          <Nav/> 
       </div>
      

@@ -43,7 +43,7 @@ const Login = () => {
        }
  }
 
-  // { (!email) ? 'wrong email' : "Login"}
+  
 
   return (
     <Box
@@ -143,9 +143,7 @@ const Login = () => {
             fontWeight="bold"
             sx={{ mb: 3, color: "white" }}
           >
-         {error ? error : 'Welcome Back'
-           
-         }
+         { (!email) ? 'wrong email' : "Login"}
 
         
           </Typography>

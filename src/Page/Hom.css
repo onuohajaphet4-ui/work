@@ -12,16 +12,19 @@
 
 .hero-mg{
     display: none;
+   
 }
 
 .hero-img{
     display: flex;
     justify-content: center;
     align-items: center;
-   padding-left: 43%;
-   width: 9%;
-   padding-top: 10px;
-  
+    padding-left: 43%;
+    width: 6%;
+    padding-top: 10px;
+    /* height: 10vh; */
+
+    
 }
 
 .intro {
@@ -165,12 +168,13 @@
     }
 
     
-      .hero-mg{
+    .hero-mg{
          display: flex;
-    
-         padding-left: 10px;
-     width: 90%;
-     padding-top: 10px;
+         padding-left: 20px;
+         width: 60%;
+         padding-top: 40%;
+        height: 20vh;
+        margin-left: 17%;
     }
     
     .admmm{
@@ -183,9 +187,12 @@
     .hero-mg{
          display: flex;
     
+       padding-left: 20px;
+         width: 70%;
+         padding-top: 50%;
+        height: 15vh;
+        margin-left: 10%;
     
-     width: 90%;
-     padding-top: 10px;
     }
 
     .hero-btn{

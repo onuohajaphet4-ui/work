@@ -22,7 +22,7 @@ const Barber = () => {
                  <p>Head Barber</p>
 
                  <div className="loo">
-                 <a href="https://wa.me/23408140685213" ><IoLogoWhatsapp color='white'/></a>
+                 <a href="https://wa.me/2348140685213" ><IoLogoWhatsapp color='white'/></a>
                  <a href="tel:=08140685213"><IoCall color='white'/></a>
                  <a href=""><IoLogoFacebook color='white'/></a>
                  <a href="https://x.com/arinzehaf?"><IoLogoTwitter color='white'/></a>
@@ -39,8 +39,8 @@ const Barber = () => {
                  <p>Assistant Head Barber</p>
 
                  <div className="loo">
-                 <a href="https://wa.me/2347074293026" ><IoLogoWhatsapp color='white'/></a>
-                 <a href="tel:=08145990289"><IoCall color='white'/></a>
+                 <a href="https://wa.me/2348140685213" ><IoLogoWhatsapp color='white'/></a>
+                 <a href="tel:=08140685213"><IoCall color='white'/></a>
                  <a href=""><IoLogoFacebook color='white'/></a>
                  <a href="https://x.com/arinzehaf?"><IoLogoTwitter color='white'/></a>
                  </div>
@@ -56,8 +56,8 @@ const Barber = () => {
                  <p>Intern Student</p>
 
                  <div className="loo">
-                 <a href="https://wa.me/2347074293026" ><IoLogoWhatsapp color='white'/></a>
-                 <a href="tel:=08145990289"><IoCall color='white'/></a>
+                 <a href="https://wa.me/2348140685213" ><IoLogoWhatsapp color='white'/></a>
+                 <a href="tel:=08140685213"><IoCall color='white'/></a>
                  <a href=""><IoLogoFacebook color='white'/></a>
                  <a href="https://x.com/arinzehaf?"><IoLogoTwitter color='white'/></a>
                  </div>

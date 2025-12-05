@@ -8,6 +8,7 @@ import hair from '../assets/hair.jpg'
 import dye from '../assets/dye.jpg'
 import dread from '../assets/dread.jpg'
 import {Link} from 'react-router-dom'
+import log from '../assets/loo.jpg'
 
 const Info = () => {
   return (
@@ -49,11 +50,11 @@ const Info = () => {
 
      <Link to='/log'><button  className='admmm'>Admin block</button></Link>
 
-   <img src="https://d2gt4h1eeousrn.cloudfront.net/121245002/header-fcHJMd/DclbFT3-200x200.webp"  className='hero-img' alt="" />
+   <img src={log}  className='hero-img' alt="" />
 
     <Nav/>
 
-      <img src="https://d2gt4h1eeousrn.cloudfront.net/121245002/header-fcHJMd/DclbFT3-200x200.webp"  className='hero-mg' alt="" />
+      <img src={log}  className='hero-mg' alt="" />
 
       
     
@@ -61,7 +62,7 @@ const Info = () => {
       
     <div className='intro'>
       <h1>
-        YATI BARBERSHOP
+        ERIC BARBERSHOP
       </h1>
 
     <Link to='/book'>  <button>Book Now</button></Link>
