@@ -52,7 +52,7 @@ const Form = () => {
           body:JSON.stringify(userData)
         })
 
-         alert('Your Meassage has been sent and will be review, expect our reply soon')
+         alert('Your Booking was successful')
            
             form.current.reset()
           
